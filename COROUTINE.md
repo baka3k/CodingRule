@@ -85,7 +85,7 @@ private suspend fun loadUrl(path: String): Int = withContext(Dispatchers.Main) {
                     }
                     override fun onPageFinished(view: WebView?, url: String?) {
                         isLoadURL = true
-                        continuation.resumeWith(Result.success(0))
+                        continuation.resumeWith(Result.success(0)) // resume coroutine - 'nắn' callback thành suspend function
 
                     }
                 }
