@@ -121,7 +121,7 @@ suspend fun doSomeThing():State{
 ## Channel 
 + Channel dùng cho việc gửi nhận giữa các Coroutine
 + Channel dùng làm blocking queue
-Ngoài hai lý do ý, ko nên dùng channel. Channel nên được dùng đúng với chức năng mà nó được tạo ra
+=> Ngoài hai lý do ý, ko nên dùng channel. Channel nên được dùng đúng với chức năng mà nó được tạo ra
 
 __BAD:__
 
