@@ -171,7 +171,8 @@ suspend fun doSomeThing():State{
 ## Hãy cẩn thận khi cancel Chanel
 + channel.send() và channel.receive() đều suspend current coroutine(coroutine gọi ra nó), khi gọi channel.cancel() - sender coroutine & receive coroutine đều bị cancel() - nếu sender và receiver là root coroutine - các job sẽ bị huỷ theo
 
-
+## Shared mutable state and concurrency / Thread safe
+T.B.D
 ## Table of Contents
 T.B.D
 
