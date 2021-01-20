@@ -31,7 +31,7 @@ val defer1 = async {// do some thing}
 val result1 = defer1.await()
 
 val defer2 = async {// do some thing}
-val result2 = defer1.await()
+val result2 = defer2.await()
 ```
 __GOOD:__
 
